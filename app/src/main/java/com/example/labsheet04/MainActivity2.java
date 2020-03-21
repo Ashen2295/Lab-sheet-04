@@ -19,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         // Create an explicit intent for an Activity in your app
-        Intent intent = new Intent(this, Notification.class);
+        Intent intent = new Intent(this, MainActivity2.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
                 Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent pendingIntent =
